@@ -1,0 +1,56 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.10)
+      activesupport (= 3.2.10)
+      builder (~> 3.0.0)
+    activesupport (3.2.10)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    addressable (2.3.2)
+    builder (3.0.4)
+    coderay (1.0.8)
+    ethon (0.5.7)
+      ffi (~> 1.2.0)
+      mime-types (~> 1.18)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    ffi (1.2.0)
+    htmlentities (4.3.1)
+    i18n (0.6.1)
+    json (1.7.6)
+    method_source (0.8.1)
+    mime-types (1.19)
+    multi_json (1.5.0)
+    multipart-post (1.1.5)
+    nokogiri (1.5.6)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
+    rake (10.0.3)
+    rcov (1.0.0)
+    slop (3.3.3)
+    typhoeus (0.5.3)
+      ethon (~> 0.5.3)
+    wordnik (4.11)
+      activemodel (>= 3.0.3)
+      addressable (>= 2.2.4)
+      htmlentities (>= 4.2.4)
+      json (>= 1.4.6)
+      nokogiri (>= 1.4.4)
+      typhoeus (>= 0.2.1)
+    xmpp4r (0.5)
+    xmpp4r-simple (0.8.8)
+      rake
+      rcov
+      xmpp4r (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  pry
+  wordnik
+  xmpp4r-simple
