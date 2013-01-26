@@ -62,11 +62,11 @@ class ProcessMessage
 
   def help args
     return "Available commands are ping, define, use, shorten, last_tweet_for, let_me_google" if args.blank?
-    return "Format: ping Result: pong" if args[0] == 'ping'
-    return "Format: define <word> Result: get definition of your word" if args[0] == 'define'
-    return "Format: use <word> Result: get example sentences for your word" if args[0] == 'use'
-    return "Format: shorten <url> Result: get bit.ly url for your long url" if args[0] == 'shorten'
-    return "Format: last_tweet <screen name> Result: get last tweet of given user" if args[0] == 'last_tweet_for'
-    return "Format: let_me_google <word> Result: get let me google it for you animation link" if args[0] == 'let_me_google'
+    return "Format: ping \nResult: pong" if args.first == 'ping'
+    return "Format: define <word> \nResult: get definition of your word" if args.first == 'define'
+    return "Format: use <word> \nResult: get example sentences for your word" if args.first == 'use'
+    return "Format: shorten <url> \nResult: get bit.ly url for your long url" if args.first == 'shorten'
+    return "Format: last_tweet <screen name> \nResult: get last tweet of given user" if args.first == 'last_tweet_for'
+    return "Format: let_me_google <word> \nResult: get let me google it for you animation link" if args.first == 'let_me_google'
   end
 end
