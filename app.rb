@@ -4,7 +4,7 @@ require 'socket'
 
 Dir[File.join(".", "apps/*.rb")].each {|file| require file}
 
-server = TCPServer.new($PORT || 5000)
+server = TCPServer.new(ENV['PORT'] || 5000)
 loop {
   bot = Bot.new(ENV['BOT_USERNAME'], ENV['BOT_PASSWORD'])
   puts "**** chatty side of mr Bot is live ****"
