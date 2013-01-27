@@ -26,7 +26,21 @@ You need to export some environment variables, in order to access external apis 
 Now simply run:
 
     ruby app.rb
-    
+
+There's another branch called <code>heroku-deployable</code>, which makes it a sinatra application, ready for deployment on heroku.
+
+CAUTION - It's a hack and a really bad way to deloy.
+
+Available Commands:
+
+- ping
+- define <word> - get definition of a dictonary word.
+- use <word> - usage of a given word.
+- shorten <long url> - short bit.ly url.
+- last_tweet_for <scree name> - last tweet of given user.
+- let_me_google <word> - let me google it for you animation link for given word.
+- commit_message - random commmit message from whatthecommit.com
+- help
 
 for more information, visit: http://goyalankit.com
 follow me on twitter, http://twitter.com/_goyalankit
