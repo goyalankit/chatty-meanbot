@@ -11,7 +11,7 @@ class Bot
   end
 
   def status message
-    @chatty_meanbot.status(:chat,"hey people")
+    @chatty_meanbot.status(:chat, message)
   end
 
   def email message
