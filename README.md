@@ -27,9 +27,6 @@ Now simply run:
 
     ruby app.rb
 
-There's another branch called <code>heroku-deployable</code>, which makes it a sinatra application, ready for deployment on heroku.
-
-CAUTION - It's a hack and a really bad way to deloy.
 
 Available Commands:
 
