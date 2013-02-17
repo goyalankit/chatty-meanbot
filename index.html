@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Chatty-meanbot by goyalankit</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Chatty-meanbot</h1>
+        <p class="header">A jabber client bot. </p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/goyalankit/chatty-meanbot/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/goyalankit/chatty-meanbot/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/goyalankit/chatty-meanbot">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/goyalankit">goyalankit</a></p>
+
+
+      </header>
+      <section>
+        <h1>chatty-meanbot</h1>
+
+<h2>A jabber client bot.</h2>
+
+<p>meet <strong>Mr. chatty meanbot</strong></p>
+
+<p>Chatty Meanbot is a jabber client that basically sits in your gtalk or whatever client you use for chat. It provides answers to several type of queries.</p>
+
+<p>To run this client you'll need following things:</p>
+
+<ul>
+<li>Wordnik api key, get it from <a href="http://developer.wordnik.com">http://developer.wordnik.com</a>
+</li>
+<li>Bitly Auth Token, get it from <a href="https://bitly.com/a/oauth_apps">https://bitly.com/a/oauth_apps</a>
+</li>
+<li>Gmail id with credentials</li>
+</ul><p><strong>Usage:</strong></p>
+
+<p>You need to export some environment variables, in order to access external apis used.</p>
+
+<pre><code>export WORDNIK_API_KEY=YOUR_WORDNIK_API_KEY
+export BITLY_AUTH_TOKEN=YOU_BITLY_AUTH_TOKEN
+export BOT_USERNAME=YOU@GMAIL.COM
+export BOT_PASSWORD=**********
+</code></pre>
+
+<p>Now simply run:</p>
+
+<pre><code>ruby app.rb
+</code></pre>
+
+<p>Available Commands:</p>
+
+<ul>
+<li>ping</li>
+<li>define  - get definition of a dictonary word.</li>
+<li>use  - usage of a given word.</li>
+<li>shorten  - short bit.ly url.</li>
+<li>last_tweet_for  - last tweet of given user.</li>
+<li>let_me_google  - let me google it for you animation link for given word.</li>
+<li>commit_message - random commmit message from whatthecommit.com</li>
+<li>help</li>
+</ul><p>for more information, visit: <a href="http://goyalankit.com">http://goyalankit.com</a>
+follow me on twitter, <a href="http://twitter.com/_goyalankit">http://twitter.com/_goyalankit</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
